@@ -28,6 +28,11 @@ nav ul {
 nav a {
     color: #8B4513;
     text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #D2691E; 
 }
 
 main {
@@ -56,7 +61,7 @@ h2, h3 {
 }
 
 h1 {
-    color: #8B4513 ;
+    color: #5C3317 ;
 }
 
 
