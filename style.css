@@ -87,12 +87,9 @@ h1 {
     }
 }
 
-
-
-
 .essay-image {
-  width: 2000px;        /* Set your desired width */
-  height: 1500px;       /* Set your desired height */
+  width: 1000px;        /* Set your desired width */
+  height: 500px;       /* Set your desired height */
   object-fit: cover;   /* Ensures the image fills the space nicely */
   border-radius: 8px;  /* Optional: makes the corners rounded */
   display: block;      /* Helps with spacing */
