@@ -87,16 +87,29 @@ h1 {
     }
 }
 
-.essay-image {
-  width: 200px;        /* Set your desired width */
-  height: 150px;       /* Set your desired height */
-  object-fit: cover;   /* Ensures the image fills the space nicely */
-  border-radius: 8px;  /* Optional: makes the corners rounded */
-  display: block;      /* Helps with spacing */
-  margin-bottom: 10px; /* Optional: space between images and text */
+
+
+
+.essay-block {
+  float: left;
+  width: 200px; /* adjust as needed */
+  margin: 10px;
+  text-align: center;
 }
 
+.essay-image {
+  width: 100%; /* ensures image fits its container */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
 
+/* Optional: Clearfix for wrapping rows */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
