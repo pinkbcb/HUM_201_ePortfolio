@@ -98,6 +98,7 @@ h1 {
 
 
 .references-image {
+    float: right;
     width: 250px;        /* Set your desired width */
     height: 200px;       /* Set your desired height */
     object-fit: cover;   /* Ensures the image fills the space nicely */
