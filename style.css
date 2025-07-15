@@ -10,8 +10,8 @@ body {
 }
 
 header {
-    background: #FAF3E0;
-    color: pink;
+    background: red;
+    color: white;
     padding: 1em 0;
     text-align: center;
 }
